@@ -105,5 +105,5 @@ void loop()
 ## After RUNNING THE SIMULATION:
 ![exp1](https://user-images.githubusercontent.com/94219582/187207763-11e00805-eb38-4748-8cbb-0c1746547b5f.png)
 
-##Result
+## Result
 Thus, we have interfaced a digital input (push button) and blink of LED upon activation.
