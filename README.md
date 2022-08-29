@@ -66,16 +66,42 @@ FIGURE -03
 
 
 
-PROGRAM 
+## PROGRAM 
+```
+ // C++ code
+
+int ledpin=4;
+int pushbutton=2;
+int val=0;
+void setup()
+{
+  pinMode(ledpin, OUTPUT);
+  pinMode(pushbutton, OUTPUT);
+}
+
+void loop()
+{
+  val = digitalRead(pushbutton);
+  if(val==0)
+  {
+    digitalWrite(ledpin,HIGH);
+  }
+  else
+  {
+    digitalWrite(ledpin,LOW);
+  }
+}
  
- 
- 
+ ```
  
  
 
 
 
-Output of the simulation :
+## Output of the simulation :
+## before RUNNING THE SIMULATION:
+![exp1](https://user-images.githubusercontent.com/94219582/187207677-cd9c2d03-03c3-4b17-9606-4d5d906ad6a9.png)
+## After RUNNING THE SIMULATION:
+![exp1](https://user-images.githubusercontent.com/94219582/187207763-11e00805-eb38-4748-8cbb-0c1746547b5f.png)
 
-[My image](username.github.com/repository/img/image.jpg)
 
